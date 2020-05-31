@@ -56,8 +56,6 @@ while True:
     elif num == (3):
         print (Fore.GREEN + 'Запуск Seeker')
         os.system('clear')
-        os.chdir('DH')
-        os.chdir('seeker')
         os.system('python3 seeker.py -t manual')
     elif num == (4):
         print (Fore.GREEN + 'Запуск VkRaidBot')
@@ -69,15 +67,12 @@ while True:
     elif num == (5):
         print (Fore.GREEN + 'Запуск VKTOOL...')
         os.system('clear') 
-        os.chdir('DH')
         os.system('python3 vktool.py')
     elif num == (6):
         print (Fore.GREEN + 'Запуск vktool ...')
         os.system('clear')
-        os.chdir('DH')
         os.system('python3 smsham.py')
     elif num == (7):
         print (Fore.GREEN + 'Запуск BotBilder...')
         os.system('clear')
-        os.chdir('DH')
         os.system('python3 botvk.py')
