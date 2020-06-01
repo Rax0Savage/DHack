@@ -48,7 +48,7 @@ while True:
     if num == (1) :
         print("Запуск kingfish3...")
         os.system('clear')
-        os.chdir('papka')
+        os.chdir('DH')
         os.system('python3 fsh.py')
     elif num == (2):
         print (Fore.GREEN + 'Запуск Sherlock...')
