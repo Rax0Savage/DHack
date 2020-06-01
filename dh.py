@@ -48,21 +48,20 @@ while True:
     if num == (1) :
         print("Запуск kingfish3...")
         os.system('clear')
-        os.chdir('DH')
         os.chdir('papka')
         os.system('python3 fsh.py')
     elif num == (2):
-        print (Fore.GREEN + 'Запуск Sherlock')
+        print (Fore.GREEN + 'Запуск Sherlock...')
         os.system('clear')
         os.chdir('papka')
-        os.system('python3 sherlock.py')
+        os.system('python3 sherl.py')
     elif num == (3):
-        print (Fore.GREEN + 'Запуск Seeker')
+        print (Fore.GREEN + 'Запуск Seeker...')
         os.system('clear')
         os.chdir('papka')
         os.system('python3 seeker.py -t manual')
     elif num == (4):
-        print (Fore.GREEN + 'Запуск VkRaidBot')
+        print (Fore.GREEN + 'Запуск VkRaidBot...')
         os.system('clear')
         os.chdir('papka')
         print("После запуска вам должно написать Bot Started после этого зайди в это сообщество в ВК club195563900 и нажмите Добавить в беседу и бот начнёт спамить в выбраную беседу")
@@ -75,7 +74,7 @@ while True:
         os.chdir('papka')
         os.system('python3 vktool.py')
     elif num == (6):
-        print (Fore.GREEN + 'Запуск vktool ...')
+        print (Fore.GREEN + 'Запуск SmsHam...')
         os.system('clear')
         os.chdir('papka')
         os.system('python3 smsham.py')
