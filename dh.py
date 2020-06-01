@@ -53,7 +53,7 @@ while True:
     elif num == (2):
         print (Fore.GREEN + 'Запуск Sherlock...')
         os.system('clear')
-        os.chdir(papka)
+        os.chdir('papka')
         os.system('python3 sherl.py')
     elif num == (3):
         print (Fore.GREEN + 'Запуск Seeker...')
